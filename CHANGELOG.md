@@ -1,4 +1,39 @@
 <a name="unreleased"></a>
+## [3.0.0](https://github.com/waldner/geo2tz/compare/v2.1.4...v3.0.0) (2024-06-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* the boltdb options are not available anymore, only the in-memory db is supported
+
+### Features
+
+* add authorization support ([4a9c0b0](https://github.com/waldner/geo2tz/commit/4a9c0b06161af9bf4ed7fb1c38840966f192cb8a))
+* add script to update tzdata ([67d34db](https://github.com/waldner/geo2tz/commit/67d34dbc7f78910530ae3a9c354b8f527ee259da))
+* add support for memory shapefile ([56aa7b1](https://github.com/waldner/geo2tz/commit/56aa7b18288778cbb7357c97554ae29695fad2aa))
+* add support for memory shapefile ([30468a9](https://github.com/waldner/geo2tz/commit/30468a914a9c8ef634806e6e6626dbe2158e7982))
+* **data:** update tz source to 2021c version ([7610d7e](https://github.com/waldner/geo2tz/commit/7610d7e53b45a639de41211f50d0755b2d897622))
+* first commit ([9fe6d03](https://github.com/waldner/geo2tz/commit/9fe6d03f0ad1fc8d3bda822456a50d8c20018e0c))
+* remove support for boltdb ([efa6545](https://github.com/waldner/geo2tz/commit/efa6545a72aa600acf8f95dbd5fd5c881efba31b))
+* update tzdata to 2023b ([43f9260](https://github.com/waldner/geo2tz/commit/43f9260affdd4a9c1907f68592b4138d3e665fc3))
+* update tzdata to v2020d ([009ffd5](https://github.com/waldner/geo2tz/commit/009ffd5c6445f24042774e97f7e82766b69806f3))
+
+
+### Bug Fixes
+
+* **build:** the docker image is broken ([4cf592b](https://github.com/waldner/geo2tz/commit/4cf592bd09b85f69248b2e5b1f04af1ee53cca83))
+* **ci:** install linter in CI ([5106c41](https://github.com/waldner/geo2tz/commit/5106c413f36b31264e2c56b371321a739003a08f))
+* **deepsource:** add error handling ([e97a79e](https://github.com/waldner/geo2tz/commit/e97a79e2deabb4d419f85877b5e2b7db6c15ec07))
+* **deepsource:** simplify comparison ([1d0b067](https://github.com/waldner/geo2tz/commit/1d0b067a8d991ef1cfb017861d559714695a5284))
+* docker image won't build ([f13e809](https://github.com/waldner/geo2tz/commit/f13e80991a92ea5e1208ae2466c39272446f348b))
+* docker-image and release process fix ([ae3e690](https://github.com/waldner/geo2tz/commit/ae3e6908c5593e428bf071b581318a27ab1b4546))
+* error detecting non-existing files ([992a2ea](https://github.com/waldner/geo2tz/commit/992a2ea6966b0a93761a48c3b99c3388909e01a4))
+* go mod tidy ([e05128e](https://github.com/waldner/geo2tz/commit/e05128ee1ad916d393ee8e3e0f5d6bbdd2041b35))
+* invalid docker build ([12d5d0d](https://github.com/waldner/geo2tz/commit/12d5d0d2790ee8dc64b0c4b9901ca9b04b25795b))
+* linter warnings ([23ef1ca](https://github.com/waldner/geo2tz/commit/23ef1caa4c61d7994af3e1850f678d9899943843))
+* release workflow ([3658395](https://github.com/waldner/geo2tz/commit/3658395c33531db79404eb87ee59515433b22458))
+* **security:** update dependencies ([33fed50](https://github.com/waldner/geo2tz/commit/33fed50b189893d7d06bbba5cd442f58afa93813))
+
 ## [2.1.4](https://github.com/noandrea/geo2tz/compare/v2.1.3...v2.1.4) (2023-06-23)
 
 
